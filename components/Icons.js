@@ -1,7 +1,7 @@
 import React from "react";
 import Svg, { G, Path, Defs, ClipPath } from "react-native-svg";
 
-function NotificationIcon(props) {
+export function NotificationIcon(props) {
   return (
     <Svg width={24} height={24} viewBox="0 0 24 24" fill="none" {...props}>
       <G clipPath="url(#prefix__clip0)" fill="#333">
